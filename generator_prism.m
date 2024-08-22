@@ -1,8 +1,8 @@
 function main()
     addpath('astra\astra-1.9.0.dev11\tools')
     addpath('astra\astra-1.9.0.dev11\mex')
-    simPath='tilt/';
-    GTPath='stack/';
+    simPath='prism/tilt/';
+    GTPath='prism/stack/';
     nGrid = 256;
     [X, Y, Z] = meshgrid(linspace(-127.5,127.5, nGrid));
     QP = [X(:) Y(:) Z(:)];
